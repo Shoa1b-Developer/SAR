@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Login / Sign-up | S A R</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="loginPage.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    
+    <h1>
+      <span class="s">S</span>
+      <span class="a">A</span>
+      <span class="r">R</span>
+    </h1>
+    
+    <div class="fullform">
+      <p class="s">Safety</p>
+      <p class="a">Amends</p>
+      <p class="r">Right</p>
+    </div>
+     <ul class="navlinks">
+      <li><a href="#">Feed</a></li>
+      <li><a href="#">Cases</a></li>
+      <li><a href="#">Report</a></li>
+      <li><a href="">Donate</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <div class="container"></div>
+    <section class="regis-section">
+      <div class="log">
+        <button class="loginBtn" onclick="showLoginSec()">Login</button>
+        <button class="signupBtn" onclick="showSignupSec()">Sign Up</button>
+      </div>
+      <form class="login-section">
+        <label>Username:</label>
+        <input type="email" placeholder="Username">
+        <label>Password:</label>
+        <input type="password" placeholder="password">
+        <button class="logPrblm" href="#signinPage">Not a member?</button>
+        <button class="logPrblm" href="#">Having trouble?</button>
+        <button type="submit" class="btn new">Login</button>
+      </form>
+      
+      <form class="signup-section">
+        <label>Username:</label>
+        <input type="text" placeholder="username">
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email">
+        <label>Mobile No.:</label>
+        <input type="number" name="number" placeholder="Enter your Mobile no.">
+        <label>New Password:</label>
+        <input type="password">
+        <label>Confirm Password:</label>
+        <input type="password">
+        <button class="logPrblm" onclick="showLoginSec()">Already a member?</button>
+        <button type="submit" class="btn new">Sign Up</button>
+        
+      </form>
+      <section class="otherLogin">
+        <p>Login using</p>
+        <div class="social">
+          facebook twitter pornhub
+        </div>
+      </section>
+    </section>
+    
+  </main>
+  
+  
+    <footer>
+    <div class="bottom">
+      <h1>
+       <span class="s">S</span>
+       <span class="a">A</span>
+       <span class="r">R</span>
+      </h1>
+     
+     <section class="navigations">
+        <ul class="navs"><h3>Navigate to</h3>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Our Team</a></li>
+        </ul>
+        <ul class="navs"><h3>More from us</h3>
+          <li><a href="#">Expenditure</a></li>
+          <li><a href="#">contact us</a></li>
+          <li><a href="#">Join us</a></li>
+        </ul>
+      </section>
+     <p>All Rights Reserved®️</p>
+    </div>
+  </footer>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
